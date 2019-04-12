@@ -19,7 +19,6 @@ class Users extends Component {
 
     render() {
         const name = this.props.location.pathname.split(':')[1];
-        console.log(this.props.users);
         return (
             <div>
                 {
